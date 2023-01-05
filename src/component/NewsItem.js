@@ -2,9 +2,7 @@ import React, { Component } from 'react'
 
 export class NewsItem extends Component {
 
-    // constructor(){
-    //     super();
-    // }
+    
     render() {
     let {title, description, imageUrl, newsUrl, author, date, source} = this.props;
     return (
