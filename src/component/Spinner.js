@@ -1,7 +1,5 @@
-// import React, { Component } from 'react'
 import React from 'react'
 import loading from '../spinner2.gif'
-// export class Spinner extends Component {
   const Spinner=()=>{
   // render() {
     return (
@@ -9,7 +7,6 @@ import loading from '../spinner2.gif'
         <img className='my-3' src={loading} alt='loading' />
       </div>
     )
-  // }
 }
 
 export default Spinner
